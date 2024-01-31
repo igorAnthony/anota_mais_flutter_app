@@ -1,16 +1,20 @@
-# login_e_anotacoes
+# LoginNotes
 
-A new Flutter project.
+Este repositório contém uma implementação de uma tela de login com recursos adicionais de captura de informações. Abaixo estão os principais recursos e detalhes do projeto:
 
-## Getting Started
+## Tela de Login
+- Campos de Login e Senha.
+- Validações dinâmicas.
+- Toque na "Política de Privacidade" para mais detalhes.
 
-This project is a starting point for a Flutter application.
+## Captura de Informações
+- Adição de dados no card principal.
+- Persistência utilizando shared_preferences.
+- Exclusão com confirmação pop-up.
+- Utilização do plugin MOBX para fazer o gerenciamento de estado!
 
-A few resources to get you started if this is your first Flutter project:
+Adicionei animações de slide para proporcionar uma experiência única. Enfrentei um desafio frustrante: o primeiro e último item do AnimationList ficam sem animações, então a mensagem de no-data não é exibida. Consegui contornar isso, mas acabei ficando sem a mensagem de no-data. Estamos sempre evoluindo! 🚀
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Este projeto é parte de uma prova de uma empresa. Infelizmente, devido à intensa rotina de trabalho e ao final do semestre na faculdade, não foi possível entregá-lo no prazo. Mas como já havia começado, resolvi dar um fim nele!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Nota:** Este README será atualizado em breve com a adição de um vídeo mostrando o funcionamento
