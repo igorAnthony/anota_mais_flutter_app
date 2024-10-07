@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/dimensions.dart';
+import 'package:anotacoes_flutter_app/const/dimensions.dart';
 
 InputDecoration inputDecorationAddNote() {
   return InputDecoration(
@@ -86,7 +86,7 @@ void showNoteDescriptionDialog(String description, BuildContext context) {
           backgroundColor: Colors.transparent,
           child: Container(
             margin: const EdgeInsets.symmetric(
-              horizontal: Dimensions.cardMarginHorizontal * 0.7,
+              horizontal: Dimensions.cardMarginHorizontal * 0.3,
               vertical: Dimensions.cardMarginVertical,
             ),
             padding: const EdgeInsets.symmetric(
@@ -94,6 +94,7 @@ void showNoteDescriptionDialog(String description, BuildContext context) {
               horizontal: Dimensions.cardPaddingHorizontal,
             ),
             height: Dimensions.cardHeight * 0.7,
+            width: MediaQuery.of(context).size.width,
             decoration: BoxDecoration(
               borderRadius:
                   BorderRadius.circular(Dimensions.textFieldBorderRadius),

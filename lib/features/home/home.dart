@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/features/notes/presentation/notes_page.dart';
+import 'package:anotacoes_flutter_app/features/notes/presentation/notes_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

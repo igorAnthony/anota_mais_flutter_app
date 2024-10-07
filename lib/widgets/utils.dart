@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/colors.dart';
-import 'package:login_e_anotacoes/const/dimensions.dart';
+import 'package:anotacoes_flutter_app/const/colors.dart';
+import 'package:anotacoes_flutter_app/const/dimensions.dart';
 
 class AppWidgets {
   static Padding titleText(String text, {Color? color, String fontFamily = "Exo2", FontWeight fontWeight = FontWeight.w300}) {

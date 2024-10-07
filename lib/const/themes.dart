@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/dimensions.dart';
+import 'package:anotacoes_flutter_app/const/dimensions.dart';
 
 class AppThemes {
   static const textTheme1 = TextTheme(

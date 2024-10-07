@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/colors.dart';
-import 'package:login_e_anotacoes/const/dimensions.dart';
-import 'package:login_e_anotacoes/widgets/utils.dart';
+import 'package:anotacoes_flutter_app/const/colors.dart';
+import 'package:anotacoes_flutter_app/const/dimensions.dart';
+import 'package:anotacoes_flutter_app/widgets/utils.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 final Uri _url = Uri.parse('https://www.google.com.br');

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/colors.dart';
-import 'package:login_e_anotacoes/const/themes.dart';
-import 'package:login_e_anotacoes/features/home/home.dart';
-import 'package:login_e_anotacoes/features/login/presentation/login_page.dart';
+import 'package:anotacoes_flutter_app/const/colors.dart';
+import 'package:anotacoes_flutter_app/const/themes.dart';
+import 'package:anotacoes_flutter_app/features/home/home.dart';
+import 'package:anotacoes_flutter_app/features/login/presentation/login_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -11,6 +11,7 @@ void main() {
       theme: _buildThemeData(),
       darkTheme: ThemeData.dark(),
       home: const LoginPage(),
+      debugShowCheckedModeBanner: false,
       routes: {
         '/login': (context) => const LoginPage(),
         '/home': (context) => const HomePage(),

@@ -1,6 +1,6 @@
 {
-    "name": "login_e_anotacoes",
-    "short_name": "login_e_anotacoes",
+    "name": "anotacoes_flutter_app",
+    "short_name": "anotacoes_flutter_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

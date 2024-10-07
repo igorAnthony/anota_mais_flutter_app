@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_e_anotacoes/const/dimensions.dart';
-import 'package:login_e_anotacoes/features/notes/provider/notes_provider.dart';
-import 'package:login_e_anotacoes/features/notes/widgets/notes_widgets.dart';
-import 'package:login_e_anotacoes/widgets/utils.dart';
+import 'package:anotacoes_flutter_app/const/dimensions.dart';
+import 'package:anotacoes_flutter_app/features/notes/provider/notes_provider.dart';
+import 'package:anotacoes_flutter_app/features/notes/widgets/notes_widgets.dart';
+import 'package:anotacoes_flutter_app/widgets/utils.dart';
 
 class NotesPage extends StatefulWidget {
   const NotesPage({Key? key}) : super(key: key);

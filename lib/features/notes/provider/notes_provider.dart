@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:login_e_anotacoes/models/note_model.dart';
+import 'package:anotacoes_flutter_app/models/note_model.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 part 'notes_provider.g.dart';
@@ -18,7 +18,7 @@ abstract class _NotesProviderBase with Store {
   void increment(String text) {
     listOfNotes.add(Note(
       id: listOfNotes.length + 1,
-      title: text.length > 10 ? text.substring(0, 10) : text,
+      title: text.length > 10 ? '${text.substring(0, 12)}...' : text,
       description: text,
     ));
     saveNotes();

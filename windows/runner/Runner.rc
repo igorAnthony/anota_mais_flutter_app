@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "login_e_anotacoes" "\0"
+            VALUE "FileDescription", "anotacoes_flutter_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "login_e_anotacoes" "\0"
+            VALUE "InternalName", "anotacoes_flutter_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "login_e_anotacoes.exe" "\0"
-            VALUE "ProductName", "login_e_anotacoes" "\0"
+            VALUE "OriginalFilename", "anotacoes_flutter_app.exe" "\0"
+            VALUE "ProductName", "anotacoes_flutter_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
