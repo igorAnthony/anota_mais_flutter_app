@@ -1,4 +1,4 @@
-# LoginNotes
+# Anota+
 
 Este repositório contém uma implementação de uma tela de login com recursos adicionais de captura de informações. Abaixo estão os principais recursos e detalhes do projeto:
 
